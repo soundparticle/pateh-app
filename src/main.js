@@ -9,4 +9,4 @@ Vue.use(VueRouter);
 new Vue({
   router,
   render: h => h(App)
-}).$mount('#App');
+}).$mount('#app');

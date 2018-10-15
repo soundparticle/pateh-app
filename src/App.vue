@@ -5,6 +5,14 @@
     <nav>
       <router-link to="/">Home</router-link>
       &nbsp;
+      <router-link to="/">Art</router-link>
+      &nbsp;
+      <router-link to="/">Music</router-link>
+      &nbsp;
+      <router-link to="/">Literature</router-link>
+      &nbsp;
+      <router-link to="/">Abhout</router-link>
+      &nbsp;
     </nav>
     <router-view></router-view>
   </div>
