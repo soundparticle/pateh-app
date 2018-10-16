@@ -5,13 +5,13 @@
     <nav>
       <router-link to="/">Home</router-link>
       &nbsp;
-      <router-link to="/">Art</router-link>
+      <router-link to="/art">Art</router-link>
       &nbsp;
-      <router-link to="/">Music</router-link>
+      <router-link to="/music">Music</router-link>
       &nbsp;
-      <router-link to="/">Literature</router-link>
+      <router-link to="/literature">Literature</router-link>
       &nbsp;
-      <router-link to="/">Abhout</router-link>
+      <router-link to="/about">About</router-link>
       &nbsp;
     </nav>
     <router-view></router-view>
@@ -26,6 +26,10 @@ export default {
 </script>
 
 <style>
+
+body {
+  background-color: lightblue;
+}
 
 h1 {
   text-align: center;
