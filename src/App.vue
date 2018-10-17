@@ -59,6 +59,7 @@ h1 {
 
 hr {
   border: solid 2px;
+  margin-left: -101%;
   color: rgba(0, 255, 174, 0.714);
 }
 
