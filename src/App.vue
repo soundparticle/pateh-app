@@ -6,7 +6,9 @@
       <hr/>
     <nav>
       <section id="container">
-          <router-link to="/" class="routerLinks">Home</router-link>
+          <router-link to="/" class="routerLinks"><p class="hidden">Home</p>
+            <svgicon icon="home" width="24" height="20"></svgicon>
+          </router-link>
           &nbsp;
           <router-link to="/art" class="routerLinks">Art</router-link>
           &nbsp;
@@ -29,6 +31,8 @@
 </template>
 
 <script>
+import './compiled-icons/home';
+
 
 export default {
 
@@ -62,6 +66,15 @@ hr {
   border: solid 2px;
   margin-left: -101%;
   color: rgba(0, 255, 174, 0.714);
+}
+
+.hidden {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
 }
 
 #container {
