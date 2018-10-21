@@ -6,15 +6,15 @@
       <hr/>
     <nav>
       <section id="container">
-          <router-link to="/" class="routerLink">Home</router-link>
+          <router-link to="/" class="routerLinks">Home</router-link>
           &nbsp;
-          <router-link to="/art" class="routerLink">Art</router-link>
+          <router-link to="/art" class="routerLinks">Art</router-link>
           &nbsp;
-          <router-link to="/music" class="routerLink">Music</router-link>
+          <router-link to="/music" class="routerLinks">Music</router-link>
           &nbsp;
-          <router-link to="/literature" class="routerLink">Literature</router-link>
+          <router-link to="/literature" class="routerLinks">Literature</router-link>
           &nbsp;
-          <router-link to="/about" class="routerLink">About</router-link>
+          <router-link to="/about" class="routerLinks">About</router-link>
           &nbsp;
       </section>
       <!-- <hr/> -->
@@ -33,6 +33,7 @@
 export default {
 
 };
+
 </script>
 
 <style>
@@ -48,13 +49,13 @@ body {
   background-size: cover;
   width: 100%;
   height: auto;
-  padding-bottom: 30%;
+  /* padding-bottom: 30%; */
 }
 
 h1 {
   text-align: center;
   font-size: 3em;
-  padding-top: 6vh;
+  padding-top: .1vh;
 }
 
 hr {
@@ -69,7 +70,7 @@ hr {
   justify-content: space-evenly;
 }
 
-.routerLink {
+.routerLinks {
   color: black;
   font-size: 1.2em;;
 }
