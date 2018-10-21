@@ -7,7 +7,7 @@
     <nav>
       <section id="container">
           <router-link to="/" class="routerLinks"><p class="hidden">Home</p>
-            <svgicon icon="home" width="34" height="30"></svgicon>
+            <svgicon icon="home" width="35" height="31"></svgicon>
           </router-link>
           &nbsp;
 
