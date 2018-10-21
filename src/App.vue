@@ -7,17 +7,30 @@
     <nav>
       <section id="container">
           <router-link to="/" class="routerLinks"><p class="hidden">Home</p>
-            <svgicon icon="home" width="24" height="20"></svgicon>
+            <svgicon icon="home" width="34" height="30"></svgicon>
           </router-link>
           &nbsp;
-          <router-link to="/art" class="routerLinks">Art</router-link>
+
+          <router-link to="/art" class="routerLinks"><p class="hidden">Art</p>
+            <svgicon icon="paint-board-and-brush" width="36" height="32"></svgicon>
+          </router-link>
           &nbsp;
-          <router-link to="/music" class="routerLinks">Music</router-link>
+
+          <router-link to="/music" class="routerLinks"><p class="hidden">Music</p>
+            <svgicon icon="music-player" width="30" height="32"></svgicon>
+          </router-link>
           &nbsp;
-          <router-link to="/literature" class="routerLinks">Literature</router-link>
+
+          <router-link to="/literature" class="routerLinks"><p class="hidden">Literature</p>
+            <svgicon icon="book-icon" width="40" height="34"></svgicon>
+          </router-link>
           &nbsp;
-          <router-link to="/about" class="routerLinks">About</router-link>
+
+          <router-link to="/about" class="routerLinks"><p class="hidden">About</p>
+            <svgicon icon="information-sign" width="40" height="34"></svgicon>
+          </router-link>
           &nbsp;
+
       </section>
       <!-- <hr/> -->
     </nav>
@@ -31,7 +44,7 @@
 </template>
 
 <script>
-import './compiled-icons/home';
+import './compiled-icons';
 
 
 export default {
@@ -46,7 +59,7 @@ body {
   background-color: lightblue;
 }
 
-body {
+body, html {
   padding-left: 0;
   background-image: url(./assets/psychadelic-ocean.jpg);
   background-attachment: fixed;
@@ -59,13 +72,14 @@ body {
 h1 {
   text-align: center;
   font-size: 3em;
+  /* padding-bottom: 1px; */
   padding-top: .1vh;
 }
 
 hr {
-  border: solid 2px;
+  border: solid 3px;
   margin-left: -101%;
-  color: rgba(0, 255, 174, 0.714);
+  color: rgba(11, 29, 111, 0.523);
 }
 
 .hidden {
