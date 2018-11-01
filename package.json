@@ -1,4 +1,4 @@
-{
+`{
   "name": "pateh-app",
   "version": "1.0.0",
   "description": "Website showcasing artist Pateh Parsons and his art, music, and writings.",
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/soundparticle/pateh-app.git"
   },
-  "author": "",
+  "author": "Antreo Pukay <acrosswalker@yahoo.com> (https://github.com/soundparticle)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/soundparticle/pateh-app/issues"
